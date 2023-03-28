@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav-bar {
+  background-color: blue;
+  height: 32%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.website-logo {
+  height: 30px;
+  margin-left: 15px;
+}
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  border: 1px solid white;
+  margin-right: 15px;
+  background-color: #2850a7;
+  border-radius: 5px;
+}
+.search-logo {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-left: 1px solid white;
+  background-color: transparent;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  list-style-type: none;
+}
+.error-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

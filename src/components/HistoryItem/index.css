@@ -1,0 +1,68 @@
+.history-item-card {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-logo-and-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.web-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.webpage-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800px;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete {
+  align-self: center;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 786px) {
+  .card-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-container {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .web-logo {
+    width: 25px;
+    height: 25px;
+  }
+}
